@@ -11,8 +11,6 @@ in C while practicing declaring and defining my own functions.
 
 * [_putchar.c](./_putchar.c): C function that writes a character to `stdout`.
 
-## Header File :file_folder:
-
 ## Tasks :page_with_curl:
 
 * **0. _putchar**
