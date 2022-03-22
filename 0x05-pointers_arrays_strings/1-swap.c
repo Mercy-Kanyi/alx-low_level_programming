@@ -9,10 +9,10 @@
 
 void swap_int(int *a, int *b)
 {
-	int chan;
+	int tmp;
 
-	chan = *a;
+	tmp = *a;
 	*a = *b;
-	*b = chan;
+	*b = tmp;
 }
 
