@@ -1,9 +1,10 @@
 #include "main.h"
 
 /**
- * reverse_array - reverses an array of integers
- * @a: array to be reversed
- * @n: number of elements in the array
+ * string_toupper - changes all lowercase letters of a string
+ * to upper
+ * @s: string to modify
+ * Return: modified string
  */
 
 char *string_toupper(char *s)
