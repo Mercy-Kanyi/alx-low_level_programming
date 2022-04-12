@@ -51,19 +51,20 @@ char *_strcopy(char *dest, char *src)
  */
 dog_t *new_dog(char *name, float age, char *owner)
 {
+/*declare a pointer to a new dog*/
 	dog_t *doggo;
-
+/*check if function fails*/
 	if (name == NULL || age < 0 || owner == NULL)
 		return (NULL);
-
+/* allocate memory for struct dog_t*/
 	doggo = malloc(sizeof(dog_t));
 	if (doggo == NULL)
 		return (NULL);
-
+/* allocate memory for a copy of name*/
 	doggo->name = malloc(sizeof(char) * (_strlen(name) + 1));
 	if (doggo->name == NULL)
 	{
-		free(doggo);
+		free(doggo); /*if empty free and return null*/
 		return (NULL);
 	}
 
