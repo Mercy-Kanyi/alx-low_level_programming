@@ -1,5 +1,6 @@
 #include <stdio.h>
 
+void print_sentence(void) __attribute__ ((constructor));
 /**
  * print_sentence - prints a sentence before main
  * Return: nothing
