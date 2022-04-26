@@ -1,0 +1,1 @@
+This directory contains work that explains more on how to work on singly linked lists; suchas creation of noodes at different points of the list, deletion, etc.
