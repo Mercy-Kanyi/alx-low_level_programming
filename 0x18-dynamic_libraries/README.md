@@ -1,0 +1,1 @@
+In dynamic libraries only the address of the function from the library is included in the linker
